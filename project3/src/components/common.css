@@ -1,0 +1,27 @@
+.main{
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(34, 179, 237);
+    border: 5px solid brown;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sub{
+    margin: 10px;
+    padding: 10px;
+    background-color: lightblue;
+    color: blue;
+    border: 5px inset darkmagenta;
+    border-radius:0 20px 0 20px;
+    width: 350px;
+}
+h3{
+   font-weight: bold;
+}
+h3:hover{
+    text-decoration: underline;
+}
+.sub:hover{
+    background-color: rgb(90, 90, 224);
+    color: white;
+}
